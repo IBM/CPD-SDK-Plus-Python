@@ -1,0 +1,17 @@
+ongoing development:
+none
+
+
+v1.1:
+- available as a python package
+- added download_cli() method in wmla utils
+- added support directories with space and other special characters in wml utils
+- supported return_raw for a few methods in storage volume utils
+- fixed the issue loading functions in __init___ for storage volume utils
+- added a method to list all existing storage volumes (`list_storage_volumes()`)
+- renamed env vars (USERNAME -> CPD_USERNAME, APIKEY -> CPD_APIKEY, BASE_URL -> CPD_BASE_URL) to be consistent with the custom image download_cli
+- updated authentication method in storage volume utils to be consistent with the custom image cli
+
+v1.0:
+- No package, all individual scripts
+- Compatiable with CPD-MLOps v1.0
