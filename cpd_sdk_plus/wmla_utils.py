@@ -1,3 +1,4 @@
+from . import run_cmd
 import os
 import subprocess
 
